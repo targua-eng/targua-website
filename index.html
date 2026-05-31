@@ -1,0 +1,180 @@
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SolidBuild Construction</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #1f2937;
+    color: white;
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.hero {
+    background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)),
+    url('https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1400&q=80');
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    background: #f59e0b;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.section {
+    padding: 70px 10%;
+}
+
+.section h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    gap: 25px;
+}
+
+.card {
+    background: #f4f4f4;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.about {
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
+}
+
+.contact {
+    background: #1f2937;
+    color: white;
+    text-align: center;
+}
+
+.contact p {
+    margin: 10px 0;
+}
+
+footer {
+    background: #111827;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">SolidBuild Construction</div>
+    <nav>
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <div class="hero-content">
+        <h1>Building Excellence From The Ground Up</h1>
+        <p>Residential, Commercial & Industrial Construction Services</p>
+        <a href="#contact" class="btn">Get a Free Quote</a>
+    </div>
+</section>
+
+<section id="services" class="section">
+    <h2>Our Services</h2>
+    <div class="services">
+        <div class="card">
+            <h3>Residential Construction</h3>
+            <p>Custom homes, renovations, and home improvements.</p>
+        </div>
+
+        <div class="card">
+            <h3>Commercial Projects</h3>
+            <p>Office buildings, retail spaces, and business developments.</p>
+        </div>
+
+        <div class="card">
+            <h3>Project Management</h3>
+            <p>Complete planning, coordination, and execution of projects.</p>
+        </div>
+    </div>
+</section>
+
+<section id="about" class="section">
+    <div class="about">
+        <h2>About Us</h2>
+        <p>
+            With years of industry experience, SolidBuild Construction
+            delivers quality craftsmanship, dependable service, and
+            projects completed on time and within budget.
+        </p>
+    </div>
+</section>
+
+<section id="contact" class="section contact">
+    <h2>Contact Us</h2>
+    <p>📞 (555) 123-4567</p>
+    <p>✉️ info@solidbuild.com</p>
+    <p>📍 Your City, State</p>
+</section>
+
+<footer>
+    <p>© 2026 SolidBuild Construction. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
